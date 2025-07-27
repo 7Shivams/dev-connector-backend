@@ -1,0 +1,33 @@
+{
+  "name": "dev-connector",
+  "version": "1.0.0",
+  "description": "social network for devs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Shivams/dev-connector-backend.git"
+  },
+  "author": "Shivam Singh",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/7Shivams/dev-connector-backend/issues"
+  },
+  "homepage": "https://github.com/7Shivams/dev-connector-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^9.2.0",
+    "config": "^4.1.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "request": "^2.88.2"
+  }
+}
